@@ -1,6 +1,7 @@
 import styles from "./ProjectsStyles.module.css";
 import viberr from "../../assets/viberr.png";
-import freshBurger from "../../assets/fresh-burger.png";
+import freshFruit from "../../assets/fruits.webp";
+import FinApp from '../../assets/Finance-App.png'
 import hipsster from "../../assets/hipsster.png";
 import fitLift from "../../assets/fitlift.png";
 import ProjectCard from "../../common/ProjectCard";
@@ -11,16 +12,16 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Zubby003/OIBSIP-landing-page"
-          h3="viberr"
-          p="Streaming App"
+          src={FinApp}
+          link="https://financial-app-black.vercel.app/"
+          h3="Kobodrop"
+          p="Financial App"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Zubby003/OIBSIP-landing-page"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={freshFruit}
+          link="https://fruit-store-lake.vercel.app/"
+          h3="GreenFood"
+          p="Fruit Store"
         />
         <ProjectCard
           src={hipsster}
