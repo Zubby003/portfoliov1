@@ -1,9 +1,8 @@
 import styles from "./ProjectsStyles.module.css";
-import viberr from "../../assets/viberr.png";
 import freshFruit from "../../assets/fruits.webp";
 import FinApp from '../../assets/Finance-App.png'
-import hipsster from "../../assets/hipsster.png";
-import fitLift from "../../assets/fitlift.png";
+import Wardrobe from '../../assets/clothes-hangers.jpg'
+import dashboard from "../../assets/dashb.jpg";
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -24,16 +23,16 @@ function Projects() {
           p="Fruit Store"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Zubby003/OIBSIP-landing-page"
-          h3="Hipsster"
-          p="Glasses Shop"
+          src={Wardrobe}
+          link="https://wardrobe-fit.vercel.app/"
+          h3="Wardrobe Fit"
+          p="Ecommerce App"
         />
         <ProjectCard
-          src={fitLift}
-          link="https://github.com/Zubby003/OIBSIP-landing-page"
-          h3="FitLift"
-          p="Fitness App"
+          src={dashboard}
+          link="https://dashboard-type.vercel.app/"
+          h3="Dashboard"
+          p="Dashboard Ui"
         />
       </div>
     </section>
